@@ -3,12 +3,12 @@
 
 #include <QObject>
 
-class Student : public QObject
-{
+class Student : public QObject{
     Q_OBJECT
 public:
     explicit Student(QObject *parent = nullptr);
-
+    void treat();
+    void treat(QString name);
 signals:
 
 };
